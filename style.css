@@ -84,6 +84,13 @@ nav li a.active {
     background-color: skyblue;
 }
 
+#balk-logo {
+    float: right;
+    padding: 14px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
 
 
 
