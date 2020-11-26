@@ -1,4 +1,11 @@
 /* Basislayout */
+#hoofdtitel {
+font-family: monospace;
+
+
+
+}
+
 
 html, body {
     height: 100%;
@@ -6,7 +13,7 @@ html, body {
     background-color: #EEEEEE;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font: arial;
 }
 
 
@@ -39,8 +46,14 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+
 }
 
+img.zweefRechts {
+    float: right;
+    margin-right: 15px;
+
+}
 .smalltext {
     font-size: 0.7em;
 }
