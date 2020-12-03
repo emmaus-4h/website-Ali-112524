@@ -8,7 +8,7 @@ font-family: Pacifico;
  html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(230, 230, 230);  
     
     color: #303030;
     font: arial;
@@ -54,6 +54,7 @@ img.zweefRechts {
 img.vliegtuig {
 float: left;
 width: 300px;
+margin-right: 10px;
 
 }
 
