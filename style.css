@@ -5,7 +5,7 @@ font-family: Pacifico;
 }
 
 
-html, body {
+ html, body {
     height: 100%;
     padding: 0;
     background-color: #EEEEEE;  
@@ -50,8 +50,14 @@ img.zweefLinks {
 img.zweefRechts {
     float: right;
     margin-right: 15px;
+}
+img.vliegtuig {
+float: left;
+width: 300px;
 
 }
+
+
 .smalltext {
     font-size: 0.7em;
 }
