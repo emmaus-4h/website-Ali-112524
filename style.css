@@ -51,13 +51,21 @@ img.zweefRechts {
     float: right;
     margin-right: 15px;
 }
+
 img.vliegtuig {
 float: left;
 width: 300px;
 margin-right: 10px;
-
 }
 
+p.vliegtuig {
+color:red;
+}
+
+div.vliegtuigClear {
+clear:both;
+
+}
 
 .smalltext {
     font-size: 0.7em;
