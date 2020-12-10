@@ -1,6 +1,7 @@
 /* Basislayout */
 #hoofdtitel {
 font-family: Pacifico;
+color: red;
 
 }
 
@@ -39,11 +40,12 @@ footer {
 }
 
 
-/* specifieke stijlen */
+/* images */
 
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    width: 250px;
 
 }
 
@@ -57,12 +59,12 @@ float: left;
 width: 300px;
 margin-right: 10px;
 }
-
+/* text */
 p.vliegtuig {
-color:red;
+color:black;
 }
 
-div.vliegtuigClear {
+div.Clear {
 clear:both;
 
 }
@@ -77,30 +79,34 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: ;
 }
 
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin-top: 60pxpx;
-    padding: 0;
+    margin: 2px;
+    padding: 7px;
     background-color: #dddddd;
     overflow: hidden;
+    border-radius: 25px;
 
 }
 
 nav ul li {
     float: left;
+
 }
+
 
 nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 30px;
     text-decoration: none;
+    border-radius: 25px;
 }
 
 nav li a:hover {
@@ -108,17 +114,5 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: red;
 }
-
-#balk-logo {
-    float: right;
-    padding: 14px 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    
-}
-
-
-
-
