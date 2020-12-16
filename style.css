@@ -65,10 +65,19 @@ p.vliegtuig {
 color:black;
 }
 
+p.vliegtuigtext{
+float: right;
+overflow: auto;
+width: 50%;
+height:140px;
+
+margin-bottom: 8px;
+}
+
 div.Clear {
 clear:both;
-
 }
+
 div.floatleft {
 float: left;
 
@@ -108,28 +117,38 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 15px 38px;
+    padding: 15px 33px;
     text-decoration: none;
     border-radius: 25px;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color:  rgb(0, 0, 0);
 }
 
 nav li a.active {
     background-color: red;
 }
 /*kollommen*/
+
+.column{
+float:  right;
+  width: 320px;
+  padding: 2px;
+margin-top: 30px;
+}
 .column1 {
-  float: right;
+  float:  right;
   width: 320px;
   padding: 2px;
 }
 .column2{
   float: left;
-  width: 320px;
   padding: 2px;
+  overflow: auto;
+  width: 50%;
+ height: 200px;
+ background-color: darkgrey;
 }
 
 /* Clear floats after image containers */
@@ -137,4 +156,11 @@ nav li a.active {
   content: "";
   clear: both;
   display: table;
+}
+/*videos*/
+
+.video-emirates{
+width: 500px;
+text-align: center;
+
 }
