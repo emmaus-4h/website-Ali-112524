@@ -51,13 +51,14 @@ img.zweefLinks {
 
 img.zweefRechts {
     float: right;
-    margin-right: 15px;
+    margin-left: 10px;
+    width: 250px;
 }
 
 img.vliegtuig {
 float: left;
 width: 300px;
-margin-right: 10px;
+margin: 10px;
 }
 /* text */
 p.vliegtuig {
@@ -68,7 +69,10 @@ div.Clear {
 clear:both;
 
 }
+div.floatleft {
+float: left;
 
+}
 .smalltext {
     font-size: 0.7em;
 }
