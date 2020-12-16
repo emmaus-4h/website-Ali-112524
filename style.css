@@ -56,7 +56,7 @@ img.zweefRechts {
 }
 
 img.vliegtuig {
-float: left;
+float: right;
 width: 300px;
 margin: 10px;
 }
@@ -108,7 +108,7 @@ nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 15px 42px;
+    padding: 15px 38px;
     text-decoration: none;
     border-radius: 25px;
 }
@@ -119,4 +119,22 @@ nav li a:hover {
 
 nav li a.active {
     background-color: red;
+}
+/*kollommen*/
+.column1 {
+  float: right;
+  width: 320px;
+  padding: 2px;
+}
+.column2{
+  float: left;
+  width: 320px;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
